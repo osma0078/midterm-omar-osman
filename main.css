@@ -90,13 +90,41 @@ main{
 footer{
     width: 100%;
 }
-
+/* -- FIRST BREAK POINT - TABLET VIEW -- */
 @media screen and (min-width:600px){
-    
+    /*
+Set the prescribed widths
+wrapper - 100%
+header - 100%
+nav - 90%
+links - 20% of nav
+main - 90%
+columns - 50% of main
+column image - 60% of column
+footer - 90% */
 }
+/* -- FIRST BREAK POINT - DESKTOP VIEW -- */
 @media screen and (min-width: 800px){
+    /*
+Set the prescribed widths
+header - 100%
+nav - 90%
+links - 20% of nav
+main - 90%
+columns - 50% of main
+column image - 50% of column
+footer - 100% */
     
 }
+/* -- FIRST BREAK POINT - LARGE DESKTOP VIEW -- */
 @media screen and (min-width: 1200px){
-    
+    /*
+Set the prescribed widths
+header - 100%
+nav - 30%
+links - 100% of nav
+main - 70%
+columns - 50% of main
+column image - 55% of column width
+footer - 100% */
 }
