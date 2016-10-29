@@ -67,6 +67,7 @@ nav a:link,
 nav a:visited{
     display: block;
     font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    text-align: center;
 }
 nav a:active,
 nav a:focus,
