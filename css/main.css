@@ -51,6 +51,9 @@ pre, code, kbd{
 }
 header{
     width: 100%;
+    background-image: url(http://lorempixel.com/100/200/abstract);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav{
     width: 100%;
