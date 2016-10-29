@@ -89,6 +89,7 @@ main{
 }
 footer{
     width: 100%;
+    list-style: none;
 }
 /* -- FIRST BREAK POINT - TABLET VIEW -- */
 @media screen and (min-width:600px){
