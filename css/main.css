@@ -92,7 +92,15 @@ main{
 }
 footer{
     width: 100%;
-    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border-top: 2px solid charcol;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem 0 0;
 }
 /* -- FIRST BREAK POINT - TABLET VIEW -- */
 @media screen and (min-width:600px){
