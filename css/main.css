@@ -37,7 +37,7 @@ h2{
     font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
 }
 li, p, a{
-    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    font: bold 16px 'Droid Sans', 'more font stack stuff', sans-serif;
 }
 pre, code, kbd{
     font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
