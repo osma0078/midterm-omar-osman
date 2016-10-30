@@ -92,6 +92,7 @@ main{
 }
 footer{
     width: 100%;
+    text-align: center;
 }
 /* -- FIRST BREAK POINT - TABLET VIEW -- */
 @media screen and (min-width:600px){
