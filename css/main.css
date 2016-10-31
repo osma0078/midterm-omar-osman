@@ -114,9 +114,9 @@ main{
 }
 footer{
     width: 100%;
+    border-top: 2px solid #8A8AE5;
     margin: 0 auto;
     padding-bottom: 1rem;
-    border-top: 2px solid #8A8AE5;
 }
 footer li {
     list-style: none;
