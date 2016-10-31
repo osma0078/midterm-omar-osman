@@ -94,7 +94,7 @@ nav a:visited{
 nav a:active,
 nav a:focus,
 nav a:hover{
-    
+    background-color: #7A7ACC;
 }
 main{
     width: 100%;
