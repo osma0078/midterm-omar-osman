@@ -13,7 +13,12 @@ Font Scaling
 0.618rem
 
 Colour scheme
-
+Monochromatic
+#8A8AE5
+#D8BFD8
+#E5E5FF
+#5C5C99
+#7A7ACC
 **************************************************/
 @import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';
 
@@ -26,18 +31,23 @@ html{
     font-size: 16px;
     line-height: 1.6;
     font-family: 'Droid Sans', 'more font stack stuff', sans-serif;
+    background-color: #8A8AE5;
+
 }
 /*************************** 
 DEFAULTS - MOBILE FIRST 
 ***************************/
 h1{
     font: bold 4.236rem 'Droid Serif', 'more font stack stuff', serif;
+    color: #D8BFD8;
 }
 h2{
     font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
+    color: #D8BFD8;
 }
 li, p, a{
     font: bold 16px 'Droid Sans', 'more font stack stuff', sans-serif;
+    color: #E5E5FF;
 }
 pre, code, kbd{
     font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
@@ -48,6 +58,7 @@ pre, code, kbd{
 .wrapper{
     width: 95%;
     margin: 0 auto;
+    background-color: #5C5C99;
 }
 header{
     width: 100%;
@@ -65,10 +76,12 @@ nav{
 }
 nav>ul{
     width: 100%;
+    border: 2px solid #E5E5FF;
 }
 nav li{
     width: 100%;
     list-style: none;
+    border-bottom: 2px solid #E5E5FF;
 }
 nav a,
 nav a:link,
