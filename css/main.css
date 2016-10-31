@@ -51,6 +51,9 @@ pre, code, kbd{
 }
 header{
     width: 100%;
+    background-image: url(http://lorempixel.com/100/200/abstract);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav{
     width: 100%;
@@ -89,6 +92,15 @@ main{
 }
 footer{
     width: 100%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border-top: 2px solid charcol;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem 0 0;
 }
 /* -- FIRST BREAK POINT - TABLET VIEW -- */
 @media screen and (min-width:600px){
