@@ -37,7 +37,7 @@ h2{
     font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
 }
 li, p, a{
-    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    font: bold 16px 'Droid Sans', 'more font stack stuff', sans-serif;
 }
 pre, code, kbd{
     font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
@@ -51,9 +51,14 @@ pre, code, kbd{
 }
 header{
     width: 100%;
-    background-image: url(http://lorempixel.com/100/200/abstract);
+    background-image: url(http://lorempixel.com/400/300/abstract/1);
     background-repeat: no-repeat;
     background-size: cover;
+}
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    line-height: 1.2;
 }
 nav{
     width: 100%;
@@ -71,6 +76,7 @@ nav a:visited{
     display: block;
     font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
     text-align: center;
+    text-decoration: none;
 }
 nav a:active,
 nav a:focus,
