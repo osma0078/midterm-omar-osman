@@ -92,9 +92,12 @@ nav a:visited{
     text-decoration: none;
 }
 nav a:active,
-nav a:focus,
 nav a:hover{
     background-color: #7A7ACC;
+}
+nav a:focus {
+    color: white;
+    background-color: #8A8AE5;
 }
 main{
     width: 100%;
