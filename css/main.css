@@ -55,6 +55,11 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    line-height: 1.2;
+}
 nav{
     width: 100%;
 }
