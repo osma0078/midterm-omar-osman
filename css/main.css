@@ -84,6 +84,9 @@ nav li{
     list-style: none;
     border-bottom: 2px solid #E5E5FF;
 }
+nav li:nth-child(5n) {
+    border-bottom: none;
+}
 nav a,
 nav a:link,
 nav a:visited{
