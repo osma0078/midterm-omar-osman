@@ -138,7 +138,10 @@ footer a:focus {
 }
 /* -- FIRST BREAK POINT - TABLET VIEW -- */
 @media screen and (min-width:600px){
-    /*
+h1 {
+font-size: 7vw;    
+}
+/*
 Set the prescribed widths
 wrapper - 100%
 header - 100%
@@ -148,6 +151,41 @@ main - 90%
 columns - 50% of main
 column image - 60% of column
 footer - 90% */
+
+.wrapper {
+width: 100%;
+margin: 0 auto;
+}
+nav {
+width: 90%;
+margin: 0 auto;
+}
+nav ul{
+border: none;
+}
+nav li {
+width: 20%;
+list-style: none;
+float: left;
+display: block;
+border: none;
+}
+main {
+width: 90%;
+margin: 0 auto;
+}
+.col {
+float: left;
+width: calc(50% - 0.5em);
+}
+.col img {
+width: 60%;
+float: left;
+}
+footer {
+width: 90%;
+clear: left;
+}
 }
 /* -- FIRST BREAK POINT - DESKTOP VIEW -- */
 @media screen and (min-width: 800px){
