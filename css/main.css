@@ -121,7 +121,8 @@ footer{
     width: 100%;
     border-top: 3px solid #8A8AE5;
     margin: 0 auto;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 footer li {
     list-style: none;
