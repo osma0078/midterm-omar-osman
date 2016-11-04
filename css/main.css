@@ -238,9 +238,9 @@ width: 100%;
 nav {
 width: 30%;
 float: left;
-text-align: left;
 }
-
+nav li {
+text-align: left;    
 }
 main {
 width: 70%;
