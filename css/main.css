@@ -241,10 +241,6 @@ float: left;
 }
 nav li {
 width: 100%;
-display: block;
-list-style-type: none;
-border: none;
-float: left;
 }
 main {
 width: 70%;
