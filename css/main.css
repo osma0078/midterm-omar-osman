@@ -140,7 +140,8 @@ footer a:focus {
 /* -- FIRST BREAK POINT - TABLET VIEW -- */
 @media screen and (min-width:600px){
 h1 {
-font-size: 7vw;    
+font-size: 7vw;
+margin: 1rem;
 }
 /*
 Set the prescribed widths
