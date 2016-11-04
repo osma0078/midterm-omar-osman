@@ -232,4 +232,24 @@ main - 70%
 columns - 50% of main
 column image - 55% of column width
 footer - 100% */
+header {
+width: 100%;
+}
+nav {
+width: 30%;
+float: left;
+}
+nav li {
+width: 100%;
+display: block;
+list-style-type: none;
+border: none;
+}
+main {
+width: 70%;
+float: left;
+}
+.col img {
+    width: 55%;
+}
 }
