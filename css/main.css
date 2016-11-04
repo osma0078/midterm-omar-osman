@@ -46,7 +46,7 @@ h2{
     color: #D8BFD8;
 }
 li, p, a{
-    font: bold 16px 'Droid Sans', 'more font stack stuff', sans-serif;
+    font: normal 16px 'Droid Sans', 'more font stack stuff', sans-serif;
     color: #E5E5FF;
 }
 pre, code, kbd{
