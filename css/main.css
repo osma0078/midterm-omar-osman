@@ -201,13 +201,25 @@ clear: left;
     /*
 Set the prescribed widths
 header - 100%
-nav - 90%
-links - 20% of nav
-main - 90%
-columns - 50% of main
+nav - 90% - inherited
+links - 20% of nav - inherited
+main - 90% - inherited
+columns - 50% of main - inherited
 column image - 50% of column
 footer - 100% */
-    
+header {
+  width: 100%;
+}
+footer {
+  width: 100%;
+}
+nav {
+margin: 0 auto;
+border: none;
+}
+.col img {
+width: 50%;
+}
 }
 /* -- FIRST BREAK POINT - LARGE DESKTOP VIEW -- */
 @media screen and (min-width: 1200px){
