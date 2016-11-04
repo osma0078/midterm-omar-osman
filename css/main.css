@@ -240,7 +240,10 @@ width: 30%;
 float: left;
 }
 nav li {
-text-align: left;    
+display: block;
+width: 100%;
+list-style: none;
+border: none;
 }
 main {
 width: 70%;
