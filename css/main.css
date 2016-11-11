@@ -1,8 +1,28 @@
 /**************************************************
 Fonts
+
+Defaults
+----------------------
 Droid Serif
 Droid Sans
 Droid Sans Mono
+
+My Fonts
+______________________
+Serif
+Kreon
+
+Sans-Serif
+Ubuntu
+
+Fallback Fonts
+_______________________
+
+Serif
+font-family: 'Ubuntu', 'Lato', 'Roboto', sans-serif; 
+
+Sans-Serif
+font-family: 'Kreon', 'Roboto Slab', 'Port Lligat Slab' , serif;
 
 Font Scaling
 6.854rem
@@ -22,7 +42,8 @@ Monochromatic
 #7A7ACC
 **************************************************/
 
-@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';
+/* @import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif'; */
+
 * {
     padding: 0;
     margin: 0;
@@ -31,7 +52,8 @@ Monochromatic
 html {
     font-size: 16px;
     line-height: 1.6;
-    font-family: 'Droid Sans', 'more font stack stuff', sans-serif;
+/*  font-family: 'Droid Sans', 'more font stack stuff', sans-serif; */   
+    font-family: 'Ubuntu', 'Lato', 'Roboto', sans-serif; 
     background-color: #8A8AE5;
 }
 .col p {
@@ -43,27 +65,30 @@ DEFAULTS - MOBILE FIRST
 ***************************/
 
 h1 {
-    font: bold 4.236rem 'Droid Serif', 'more font stack stuff', serif;
-    color: #D8BFD8;
+/*     font: bold 4.236rem 'Droid Serif', 'more font stack stuff', serif; */ 
+       font: bold 4.236rem 'Kreon', 'Roboto Slab', 'Port Lligat Slab' , serif;
+       color: #D8BFD8;
 }
 h2 {
-    font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
-    color: #D8BFD8;
-    margin: 0.5rem;
+/*     font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif; */  
+       font: bold 2.618rem 'Kreon', 'Roboto Slab', 'Port Lligat Slab' , serif;
+       color: #D8BFD8;
+       margin: 0.5rem;
 }
 li,
 p,
 a {
-    font: normal 16px 'Droid Sans', 'more font stack stuff', sans-serif;
+    /* font: normal 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif; */
+    font: normal 1.618rem 'Ubuntu', 'Lato', 'Roboto', sans-serif;
     color: #E5E5FF;
     line-height: 1.6;
 }
 pre,
 code,
 kbd {
-    font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff',
+    /* font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', sans-serif; */
+       font: normal 1.0rem 'Ubuntu', 'Lato', 'Roboto', sans-serif;
 }
-
 /***************************
     LAYOUT - MOBILE FIRST
 ***************************/
@@ -75,7 +100,7 @@ h1 {
     font-size: 2.618rem;
 }
 h2 {
-    font-size: 1.68rem;
+    font-size: 1.618rem;
 }
 li,
 p,
@@ -92,6 +117,16 @@ a:link,
 a:visited {
     font-size: 1.0rem;
 }
+
+/* Set the prescribed widths */
+/*wrapper - 95%
+header - 100% of wrapper
+nav - 100% of wrapper
+links - 100% of nav
+main - 100% of wrapper
+columns - 100% of main
+column image - 100% of column
+footer - 100% of wrapper*/
 .wrapper {
     width: 95%;
     margin: 0 auto;
@@ -129,7 +164,7 @@ nav a,
 nav a:link,
 nav a:visited {
     display: block;
-    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    font: normal 1.618rem 'Ubuntu', 'Lato', 'Roboto', sans-serif;
     text-align: center;
     text-decoration: none;
 }
@@ -180,7 +215,9 @@ footer a:focus {
 /* -- FIRST BREAK POINT - TABLET VIEW -- */
 
 @media screen and (min-width:600px) {
+    
     /* Font Sizes */
+    
     h1 {
         font-size: 2.618rem;
     }
@@ -259,7 +296,9 @@ footer - 90% */
 /* -- FIRST BREAK POINT - DESKTOP VIEW -- */
 
 @media screen and (min-width: 800px) {
+    
     /* Font Sizes */
+    
     h1 {
         font-size: 4.236rem;
     }
@@ -309,7 +348,9 @@ footer - 100% */
 /* -- FIRST BREAK POINT - LARGE DESKTOP VIEW -- */
 
 @media screen and (min-width: 1200px) {
+
     /* Font Sizes */
+    
     h1 {
         font-size: 4.236rem;
     }
@@ -369,7 +410,7 @@ footer - 100% */
         width: 55%;
     }
     footer {
-        position:relative;
+        position: relative;
         left:0px;
         bottom:0px;
         height:100px;
